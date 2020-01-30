@@ -1,0 +1,2 @@
+The file "GoGreen-DB.v1" contains a first version of the database, it is still missing the attributes for different activities, we will discuss those in our next meeting. 
+This file has only ther schema in it woth no data samples. if you want to take a look in it, please use the command "pg_restore" you will find useful information in this link: https://www.postgresql.org/docs/current/app-pgrestore.html

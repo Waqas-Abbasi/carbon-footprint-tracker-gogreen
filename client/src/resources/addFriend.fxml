@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#setClear" prefHeight="700.0" prefWidth="600.0" styleClass="parent" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.AddFriend">
+    <children>
+        <Label layoutX="164.0" layoutY="27.0" prefHeight="64.0" prefWidth="216.0" text="Add Friend" textFill="#28dfa5">
+            <font>
+                <Font size="40.0" />
+            </font>
+        </Label>
+        <TextField fx:id="friendName" layoutX="72.0" layoutY="158.0" prefHeight="71.0" prefWidth="346.0" promptText="Your Friend's Name">
+            <font>
+                <Font size="31.0" />
+            </font>
+        </TextField>
+        <Label layoutX="63.0" layoutY="243.0" prefHeight="30.0" prefWidth="129.0" text="Friend List">
+            <font>
+                <Font size="23.0" />
+            </font>
+        </Label>
+        <GridPane fx:id="friendPane" layoutX="99.0" layoutY="314.0" prefHeight="348.0" prefWidth="372.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="133.2536895439232" minWidth="10.0" prefWidth="93.00000293686658" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="124.65671993943101" minWidth="10.0" prefWidth="92.85076487560963" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="124.65671993943101" minWidth="10.0" prefWidth="85.07463188961697" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="124.65671993943101" minWidth="10.0" prefWidth="77.91043878063704" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="37.80598204628243" minHeight="10.0" prefHeight="37.80598204628243" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="36.37312071815743" minHeight="10.0" prefHeight="36.37312071815743" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+        </GridPane>
+        <Label layoutX="197.0" layoutY="291.0" text="Score" />
+        <Label layoutX="99.0" layoutY="291.0" text="name" />
+        <Label fx:id="tips" layoutX="278.0" layoutY="243.0" prefHeight="30.0" prefWidth="295.0" />
+      <Label layoutX="292.0" layoutY="291.0" text="Carbon Footprint" />
+      <ScrollPane fx:id="scrollPane" layoutX="72.0" layoutY="229.0" prefHeight="200.0" prefWidth="265.0">
+         <content>
+            <GridPane fx:id="friendSearchList" prefHeight="436.0" prefWidth="241.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+            </GridPane>
+         </content>
+      </ScrollPane>
+      <JFXButton fx:id="searchButton" layoutX="453.0" layoutY="158.0" onAction="#setSearchAction" prefHeight="64.0" prefWidth="109.0" styleClass="addActivityBtn" stylesheets="@stylesheet.css" text="Search" textFill="#2155ce">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <ImageView fx:id="imagefriend" fitHeight="53.0" fitWidth="66.0" layoutX="79.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true" />
+    </children>
+</Pane>

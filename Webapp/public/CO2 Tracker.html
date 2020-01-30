@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)https://localhost:3001/home -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <link rel="stylesheet" href="./CO2 Tracker_files/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <title>CO2 Tracker</title>
+  <link rel="shortcut icon" href="https://localhost:3001/favicon.ico"><style data-jss="" data-meta="MuiTable">
+.jss122 {
+  width: 100%;
+  display: table;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+</style><style data-jss="" data-meta="MuiTableBody">
+.jss141 {
+  display: table-row-group;
+}
+</style><style data-jss="" data-meta="MuiTableCell">
+.jss129 {
+  display: table-cell;
+  padding: 4px 56px 4px 24px;
+  text-align: left;
+  border-bottom: 1px solid
+    rgba(224, 224, 224, 1);
+  vertical-align: inherit;
+}
+.jss129:last-child {
+  padding-right: 24px;
+}
+.jss130 {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+.jss131 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 0.8125rem;
+  font-weight: 400;
+}
+.jss132 {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 0.75rem;
+  border-bottom: 0;
+}
+.jss133 {
+  text-align: right;
+  flex-direction: row-reverse;
+}
+.jss134 {
+  padding-right: 24px;
+}
+.jss135 {
+  padding: 0 12px;
+}
+.jss135:last-child {
+  padding-right: 12px;
+}
+.jss136 {
+  padding: 0;
+}
+.jss136:last-child {
+  padding: 0;
+}
+.jss137 {
+  text-align: left;
+}
+.jss138 {
+  text-align: center;
+}
+.jss139 {
+  text-align: right;
+  flex-direction: row-reverse;
+}
+.jss140 {
+  text-align: justify;
+}
+</style><style data-jss="" data-meta="MuiTableHead">
+.jss123 {
+  display: table-header-group;
+}
+</style><style data-jss="" data-meta="MuiTableRow">
+.jss124 {
+  color: inherit;
+  height: 48px;
+  display: table-row;
+  outline: none;
+  vertical-align: middle;
+}
+.jss124.jss125 {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.jss124.jss126:hover {
+  background-color: rgba(0, 0, 0, 0.07);
+}
+.jss127 {
+  height: 56px;
+}
+.jss128 {
+  height: 56px;
+}
+</style><style data-jss="" data-meta="MuiPaper">
+.jss95 {
+  background-color: #fff;
+}
+.jss96 {
+  border-radius: 4px;
+}
+.jss97 {
+  box-shadow: none;
+}
+.jss98 {
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 2px 1px -1px rgba(0,0,0,0.12);
+}
+.jss99 {
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 3px 1px -2px rgba(0,0,0,0.12);
+}
+.jss100 {
+  box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 3px 3px -2px rgba(0,0,0,0.12);
+}
+.jss101 {
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+.jss102 {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12);
+}
+.jss103 {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+.jss104 {
+  box-shadow: 0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12);
+}
+.jss105 {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+.jss106 {
+  box-shadow: 0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12);
+}
+.jss107 {
+  box-shadow: 0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12);
+}
+.jss108 {
+  box-shadow: 0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12);
+}
+.jss109 {
+  box-shadow: 0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12);
+}
+.jss110 {
+  box-shadow: 0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12);
+}
+.jss111 {
+  box-shadow: 0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12);
+}
+.jss112 {
+  box-shadow: 0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12);
+}
+.jss113 {
+  box-shadow: 0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12);
+}
+.jss114 {
+  box-shadow: 0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12);
+}
+.jss115 {
+  box-shadow: 0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12);
+}
+.jss116 {
+  box-shadow: 0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12);
+}
+.jss117 {
+  box-shadow: 0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12);
+}
+.jss118 {
+  box-shadow: 0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12);
+}
+.jss119 {
+  box-shadow: 0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12);
+}
+.jss120 {
+  box-shadow: 0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12);
+}
+.jss121 {
+  box-shadow: 0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12);
+}
+</style></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div><div role="navigation" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; overflow: hidden;"><div style="z-index: 2; position: absolute; top: 0px; bottom: 0px; transition: -webkit-transform 0.3s ease-out 0s; will-change: transform; overflow-y: auto; width: 260px; color: white; text-align: center; background-image: linear-gradient(to right bottom, rgba(0, 181, 204, 0.6), rgba(107, 255, 185, 0.8)); left: 0px; transform: translateX(0%); box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 4px;"><b style="font-size: 40px;"><br>C0₂ Tracker<br><br><a href="https://localhost:3001/home" style="text-decoration: none; color: white;"><button class="btn btn-default menuButton"><div class="dd-header-title">Dashboard</div></button></a><div class="dropdown"><button aria-haspopup="true" aria-expanded="false" type="button" class="menuButton btn-default dropdown-toggle btn btn-primary">Add Activity</button><div aria-labelledby="" class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-24px, 59px, 0px);"><a href="https://localhost:3001/home#" class="dropdown-item" role="button"><a href="https://localhost:3001/vegeterianmeal" style="text-decoration: none; color: black;"><div id="fullClick">Eating A Vegeterian Meal</div></a></a><a href="https://localhost:3001/home#" class="dropdown-item" role="button"><a href="https://localhost:3001/localproduce" style="text-decoration: none; color: black;"><div id="fullClick">Buying Local Produce</div></a></a><a href="https://localhost:3001/home#" class="dropdown-item" role="button"><a href="https://localhost:3001/personaltransport" style="text-decoration: none; color: black;"><div id="fullClick">Using Personal Transport</div></a></a><a href="https://localhost:3001/home#" class="dropdown-item" role="button"><a href="https://localhost:3001/publictransport" style="text-decoration: none; color: black;"><div id="fullClick">Using Public Transport</div></a></a><a href="https://localhost:3001/home#" class="dropdown-item" role="button"><a href="https://localhost:3001/temperature" style="text-decoration: none; color: black;"><div id="fullClick">Lowering House Temperature</div></a></a><a href="https://localhost:3001/home#" class="dropdown-item" role="button"><a href="https://localhost:3001/solarpanels" style="text-decoration: none; color: black;"><div id="fullClick">Adding Solar Panels</div></a></a></div></div></b></div><div style="z-index: 1; position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; opacity: 0; visibility: hidden; transition: opacity 0.3s ease-out 0s, visibility 0.3s ease-out 0s; background-color: rgba(0, 0, 0, 0.3);"></div><div style="position: absolute; top: 0px; left: 260px; right: 0px; bottom: 0px; overflow-y: auto; transition: left 0.3s ease-out 0s, right 0.3s ease-out 0s;"><div id="scene"><div id="mainBox"><div id="dashBoardHeader">Dashboard / My Dashboard</div><div id="userInformation"><div id="scoreBox"><p id="totalScore">100</p><hr><p id="totalScoreLabel">Total Score</p></div><div id="carbonFootprintBox"><p id="carbonFootprint">100</p><hr><p id="carbonFootprintLabel">Carbon Footprint</p></div></div><div id="empty"></div><div id="dashBoardHeader">Activities / My Activities</div><div id="myActivities"><div class="jss95 jss99 jss96" style="width: 100%;"><table class="jss122"><thead class="jss123"><tr class="jss124 jss127"><th class="jss129 jss130" scope="col">Activity Name</th><th class="jss129 jss130 jss139" scope="col">Score</th><th class="jss129 jss130 jss139" scope="col">Date</th></tr></thead><tbody class="jss141"><tr class="jss124"><th class="jss129 jss131" scope="row">Frozen yoghurt</th><td class="jss129 jss131 jss139">159</td><td class="jss129 jss131 jss139">6</td></tr><tr class="jss124"><th class="jss129 jss131" scope="row">Ice cream sandwich</th><td class="jss129 jss131 jss139">237</td><td class="jss129 jss131 jss139">9</td></tr><tr class="jss124"><th class="jss129 jss131" scope="row">Eclair</th><td class="jss129 jss131 jss139">262</td><td class="jss129 jss131 jss139">16</td></tr><tr class="jss124"><th class="jss129 jss131" scope="row">Cupcake</th><td class="jss129 jss131 jss139">305</td><td class="jss129 jss131 jss139">3.7</td></tr><tr class="jss124"><th class="jss129 jss131" scope="row">Gingerbread</th><td class="jss129 jss131 jss139">356</td><td class="jss129 jss131 jss139">16</td></tr></tbody></table></div></div></div></div></div></div></div></div>
+    <link rel="stylesheet" href="https://localhost:3001/css/index.css">
+    <script src="./CO2 Tracker_files/react-bootstrap.min.js" crossorigin="">
+
+  <script type="text/javascript" src="babel-polyfill.js"></script><script type="text/javascript" src="https://localhost:3001/main.js"></script>
+
+</body></html>

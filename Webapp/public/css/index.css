@@ -1,0 +1,382 @@
+.menuButton {
+  background-color:rgba(0,0,0,0);
+  border: none;
+  font-size:23.5px;
+  width: 100%;
+  height: 50px;
+  transition: 0.3s;
+  color:white;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+
+}
+
+.menuButton:hover{
+  background-color: rgba(0,0,0,0.1);
+}
+
+button:focus {
+  outline:0;
+}
+
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.dd-wrapper{
+  position: relative;
+  width: 100%;
+}
+.dd-wrapper .dd-header{
+  display: inline;
+  background-color:rgba(0,0,0,0);
+  border-radius: 0%;
+  border:0px;
+}
+
+.dd-wrapper .dd-header-title{
+  font-weight: bold !important;
+  margin:auto;
+  font-size: 22px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
+
+.dd-wrapper .dd-header-title:hover{
+  background-color: rgba(0,0,0,0.1);
+}
+
+.fa{
+  display: none;
+}
+
+.dd-list{
+  position: absolute;
+  text-align: center !important;
+  width: 100%;
+  border: 0px !important;
+  border-top: none !important;
+  border-bottom-right-radius: none !important;
+  border-bottom-left-radius: none !important;
+  background-color: rgba(0, 0, 0, 0.001) !important;
+  box-shadow: none !important;
+  font-weight: bold !important;
+  padding: 0px !important;
+  max-height: 215em;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.dd-list .dd-list-item{
+  font-size: 17px !important;
+  font-weight: 100;
+}
+.dd-list .dd-list-item:hover{
+  background-color: rgba(0,0,0,0.1) !important;
+}
+
+.btn-primary{
+  background-color: rgba(0,0,0,0)!important;
+}
+
+.btn-primary:active  {
+  background-color: rgba(0,0,0,0.1)!important;
+}
+
+.btn-primary:focus  {
+  background-color: rgba(0,0,0,0.1)!important;
+
+}
+.btn{
+  -moz-transition:color .2s ease-in;
+  -o-transition:color .2s ease-in;
+  -webkit-transition:color .2s ease-in;
+}
+.btn:hover{
+  color:#000 !important;
+}
+
+.dropdown-menu{
+  transform: translate3d(0px, 59px, 0px) !important;
+  background-color: rgba(0,0,0,0.1)!important;
+}
+
+.dropdown-menu a{
+  color:white !important;
+}
+
+.dropdown-menu a:hover{
+  background-color: rgba(0,0,0,0)!important;
+}
+
+.dropdown-menu .dropdown-item:hover{
+  background-color: rgba(0,0,0,0.1)!important;
+}
+
+.middleBox{
+  width:500px;
+  height:350px;
+  background-image: linear-gradient(to bottom right, rgba(0, 181, 204, 0.3), rgba(107, 255, 185, 0.3));
+  margin: auto; 
+  position: absolute;
+  top: 0; right: 0;
+  bottom: 0; left: 0;
+  padding:10px 10px 10px 10px;
+  padding-left: 30px;
+}
+
+.paraTitle{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.vegeSubmit{
+  margin: auto;
+  display: block;
+  padding:0.3em 1.2em;
+  border:0.16em solid rgba(255,255,255,0);
+  box-sizing: border-box;
+  font-weight: 300;
+  color:#000;
+  background-color: #fff;
+  text-align: center;
+  transition: all 0.2s;
+  width: 250px;
+}
+
+.vegeSubmit:hover{
+  border-color: rgba(37, 37, 37, 0.5);
+}
+
+.localProduceBox{
+  width:500px;
+  height:250px;
+  background-image: linear-gradient(to bottom right, rgba(0, 181, 204, 0.3), rgba(107, 255, 185, 0.3));
+  margin: auto; 
+  position: absolute;
+  top: 0; right: 0;
+  bottom: 0; left: 0;
+  padding:10px 10px 10px 10px;
+}
+ 
+.personalTransportBox{
+  width:500px;
+  height:260px;
+  background-image: linear-gradient(to bottom right, rgba(0, 181, 204, 0.3), rgba(107, 255, 185, 0.3));
+  margin: auto; 
+  position: absolute;
+  text-align: center;
+  top: 0; right: 0;
+  bottom: 0; left: 0;
+  padding:20px 10px 10px 20px;
+}
+
+#vehicleType{
+  text-align: center;
+  width: 300px;
+  height: calc(1.5em + .75rem + 2px);
+  border: none;
+  font-size: 16px;
+}
+
+.temperatureBox{
+  width:500px;
+  height:240px;
+  background-image: linear-gradient(to bottom right, rgba(0, 181, 204, 0.3), rgba(107, 255, 185, 0.3));
+  margin: auto; 
+  position: absolute;
+  text-align: center;
+  top: 0; right: 0;
+  bottom: 0; left: 0;
+  padding:20px 10px 10px 20px;
+}
+
+#fullClick{
+  width: 100%;
+  height:100;
+}
+
+.loginBox{
+  text-align: center;
+  opacity: 1 !important;
+  width:300px;
+  height:150px;
+  background-image: linear-gradient(to bottom right, rgba(0, 181, 204, 0.3), rgba(107, 255, 185, 0.3));
+  margin: auto; 
+  position: absolute;
+  top: 0; right: 0;
+  bottom: 0; left: 0;
+  padding:20px;
+  padding-right: 30px;
+}
+.registerBox{
+  text-align: center;
+  opacity: 1 !important;
+  width:300px;
+  height:190px;
+  background-image: linear-gradient(to bottom right, rgba(0, 181, 204, 0.3), rgba(107, 255, 185, 0.3));
+  margin: auto; 
+  position: absolute;
+  top: 0; right: 0;
+  bottom: 0; left: 0;
+  padding:20px;
+  padding-right: 30px;
+}
+.registerBox input[type="password"]{
+  width:100%;
+  height:30px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  border: none;
+  padding-inline-start: 10px;
+}
+
+.registerBox input[type="text"]{
+  width:100%;
+  height:30px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  border: none;
+  padding-inline-start: 10px;
+}
+
+.registerBox input[type="submit"]{
+  width:103.5%;
+  height:30px;
+  font-size: 16px;
+}
+
+.loginBox input[type="password"]{
+  width:100%;
+  height:30px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  border: none;
+  padding-inline-start: 10px;
+}
+
+.loginBox input[type="text"]{
+  width:100%;
+  height:30px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  border: none;
+  padding-inline-start: 10px;
+}
+
+.loginBox input[type="submit"]{
+  width:103.5%;
+  height:30px;
+  font-size: 16px;
+}
+
+#mainBox{
+  width: 53.45%;
+  height: 80vh;
+  background-image: linear-gradient(to bottom right, rgba(0, 181, 204, 0.3), rgba(107, 255, 185, 0.3));
+  margin: auto; 
+  position: absolute;
+  top: 0; right: 0;
+  bottom: 0; left: 0;
+}
+
+#dashBoardHeader{
+  width:100%;
+  background-color: rgba(94, 94, 94, 0.2);
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+
+#userInformation{
+  margin-top:10px;
+}
+#scoreBox{
+  display: inline-block;
+  width:300px;
+  height:150px;
+  background-color: white;
+  color:black;
+  border-radius:2.5px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+#carbonFootprintBox{
+  display: inline-block;
+  width:300px;
+  height:150px;
+  background-color: white;
+  color:black;
+  border-radius:2.5px;
+  margin-right: 10px;
+}
+
+#totalScore{
+  height: 50%;
+  padding-inline-start: 10px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 300%;
+}
+
+#totalScoreLabel{
+  text-align: center;
+  font-size:18px;
+}
+hr {
+  margin-top: 0rem !important;
+}
+
+#carbonFootprint{
+  height: 50%;
+  padding-inline-start: 10px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 300%;
+}
+
+#carbonFootprintLabel{
+  text-align: center;
+  font-size:18px;
+}
+
+#myActivities{
+  margin-left:5%;
+  margin-right:5%;
+  width: 90%;
+  text-align: center;
+  margin-top: 10px;
+} 
+
+#myActivitiesLabel{
+  width:100%;
+  text-align: left !important;
+}
+
+#empty{
+  margin-top:10px;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid rgba(0, 181, 204, 0.3);/* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin: auto; 
+  position: absolute;
+  top: 0; right: 0;
+  bottom: 0; left: 0;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

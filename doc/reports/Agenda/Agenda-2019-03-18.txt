@@ -1,0 +1,11 @@
+During last week, we met up as a team and came up with a plan for all our features based on some researches and papers, we will discuss our plan with the TA and see what is his insight on that.
+Besides that, we will present our progress on the GUI Part, we did the following: 
+- Login Page, Registration Page
+- Dashboard
+- application.model.Activity Panels
+And on the server part, we did the followring:
+Database functioning properly
+- application.model.User Authentication
+- Setup Spring Database + Connecting Heroku
+- Lookup Table - application.model.Food, application.model.Country, 5x5 Region Table, Vehicles (public transport)
+- Eat a Vegetarian meal Feature setup

@@ -1,0 +1,14 @@
+Agenda for week 2:
+
+During the meeting we will go over these different things: 
+
+Waqas and Kalin will present what they found during their research on how to build the Back-end and different libraries.
+They have already compiled a list of tools / libraries the project's servers will be developed with.
+
+Anxian and Stef will research for GUI libraries:
+They have researched the necessary tools to be used for the development of the GUI / Client-side and compiled a list and provide links to documentation.
+
+
+Silviu and Gijs will present what they have found on APIs for app's functionality and compiled a list and state what are the particularities. They have linked to their documentation.
+
+Gijs and Nafie did  some research for the Database, Data Model and researched integration with Java.

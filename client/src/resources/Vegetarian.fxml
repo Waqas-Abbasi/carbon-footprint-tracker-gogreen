@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <bottom>
+            <Pane prefHeight="74.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button alignment="CENTER" layoutX="408.0" layoutY="10.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="132.0" text="Submit" />
+               </children>
+            </Pane>
+         </bottom>
+         <top>
+            <BorderPane prefHeight="96.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <center>
+                  <Label text="Go Green" BorderPane.alignment="CENTER">
+                     <font>
+                        <Font size="70.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="#0cb291" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Label>
+               </center>
+            </BorderPane>
+         </top>
+         <center>
+            <AnchorPane prefHeight="230.0" prefWidth="601.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="14.0" layoutY="3.0" prefHeight="30.0" prefWidth="282.0" text="what did you eat today..." textFill="#1ed3b8">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane prefHeight="223.0" prefWidth="601.0">
+                     <children>
+                        <VBox layoutX="301.0" layoutY="49.0" spacing="10.0">
+                           <children>
+                              <CheckBox layoutX="14.0" layoutY="44.0" mnemonicParsing="false" text="Rice" />
+                              <CheckBox layoutX="14.0" layoutY="78.0" mnemonicParsing="false" text="Butter" />
+                              <CheckBox layoutX="14.0" layoutY="113.0" mnemonicParsing="false" text="Nuts" />
+                              <CheckBox layoutX="14.0" layoutY="142.0" mnemonicParsing="false" text="Yogurt" />
+                              <CheckBox layoutX="14.0" layoutY="178.0" mnemonicParsing="false" text="Broccoli" />
+                           </children>
+                        </VBox>
+                        <VBox layoutX="447.0" layoutY="49.0" spacing="10.0">
+                           <children>
+                              <CheckBox layoutX="14.0" layoutY="44.0" mnemonicParsing="false" text="Tofu" />
+                              <CheckBox layoutX="14.0" layoutY="78.0" mnemonicParsing="false" text="Dry Bean" />
+                              <CheckBox layoutX="14.0" layoutY="113.0" mnemonicParsing="false" text="Milk" />
+                              <CheckBox layoutX="14.0" layoutY="142.0" mnemonicParsing="false" text="Tomatoes" />
+                              <CheckBox layoutX="14.0" layoutY="178.0" mnemonicParsing="false" text="Lentils" />
+                           </children>
+                        </VBox>
+                        <VBox layoutX="4.0" layoutY="47.0" prefHeight="162.0" prefWidth="104.0" spacing="10.0">
+                           <children>
+                              <CheckBox layoutX="14.0" layoutY="44.0" mnemonicParsing="false" text="Lamb" />
+                              <CheckBox layoutX="14.0" layoutY="78.0" mnemonicParsing="false" text="Beef" />
+                              <CheckBox layoutX="14.0" layoutY="113.0" mnemonicParsing="false" text="Cheese" />
+                              <CheckBox layoutX="14.0" layoutY="142.0" mnemonicParsing="false" text="Pork" />
+                              <CheckBox layoutX="14.0" layoutY="178.0" mnemonicParsing="false" text="Salmon" />
+                           </children>
+                        </VBox>
+                        <Label layoutX="14.0" layoutY="3.0" prefHeight="30.0" prefWidth="282.0" text="what did you eat today..." textFill="#1ed3b8">
+                           <font>
+                              <Font size="23.0" />
+                           </font>
+                        </Label>
+                        <VBox layoutX="142.0" layoutY="48.0" spacing="10.0">
+                           <children>
+                              <CheckBox layoutX="14.0" layoutY="44.0" mnemonicParsing="false" text="Turkey" />
+                              <CheckBox layoutX="14.0" layoutY="78.0" mnemonicParsing="false" text="Chicken" />
+                              <CheckBox layoutX="14.0" layoutY="113.0" mnemonicParsing="false" text="Tuna" />
+                              <CheckBox layoutX="14.0" layoutY="142.0" mnemonicParsing="false" text="Eggs" />
+                              <CheckBox layoutX="14.0" layoutY="178.0" mnemonicParsing="false" text="Potatoes" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,12 @@
+During this meeting, we discussed what we did and asked the Ta all the questions and asked for his insight on several things tha twe presented:
+We presented several parts: 
+GUI
+- Login Page, Registration Page
+- Dashboard
+- Panels in the GUI and how they work so far.
+
+Database functioning properly
+- application.model.User Authentication
+- Setup Spring Database + Connecting Heroku
+- Lookup Table - application.model.Food, application.model.Country, 5x5 Region Table, Vehicles (public transport)
+- Eat a Vegetarian meal Feature setup

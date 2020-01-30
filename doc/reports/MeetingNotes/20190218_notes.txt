@@ -1,0 +1,41 @@
+Questions for the TA that we are going to ask during the meeting ? How the
+scrum board is gonna be used ? There is a board on git but isn’t it for ?
+Are the libraries inside of JavaDoc considered librairies and are we gonna
+have points for that ?
+
+Notes:
+
+In today’s meeting, Silviu is the chair and Nafie is the secretary.
+
+In the meeting, each one of us presented what he found in his research on
+different things.
+
+Axian started presenting GUI Research libraries, he presented different
+things such as Swing, javaFX and GUIputer. But he did recommend swing.
+
+Waqqas presented the Back-end / Research libraries, he found different
+tools to that JDB he thinks that Heroku will be good to host. And our TA,
+Thomas suggested Spring.
+
+Silvu has searched for two API, the first one MAEE APi it works with HTTPS
+request/response, it calculated the carbon footprint in several countries.
+This api has a decent documentation. The second one calculates the carbon
+footprint of food, transportation, but it has some bug. Thomas recommended
+using the first one.He also say that to put in the back of our planning and
+that the calculations of CO2 can be mocked.
+
+NAfie’s discussed some informations on Databases and how to connect it to
+the demo.server. There is JDBC which is a java driver the allows the programmer
+to send and get requests and queries to the SQL database.
+
+Moreover, Thomas asked us to edit the read me and he will put our master
+private.
+
+We decided that we are going to do all of our code on a development branch
+and then when everything is working, we will merge to Master so that our
+master will be always a working version of our App.
+
+We have to do some research on this Pull based development.
+
+For next week, we need to have a demo.server and client side with simple
+request/answer with the Database set up on Heroku.

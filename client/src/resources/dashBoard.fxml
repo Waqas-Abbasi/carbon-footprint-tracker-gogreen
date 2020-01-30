@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" styleClass="parent" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.DashBoard">
+   <children>
+      <VBox fx:id="sidebar" alignment="TOP_CENTER" prefHeight="700.0" prefWidth="250.0" styleClass="sidebar" stylesheets="@stylesheet.css">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="83.0" prefWidth="250.0" style="-fx-background-color: #8EDDCA#8EDDCA;" text="Dashboard" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0">
+               <children>
+                  <JFXButton fx:id="myActivities" onAction="#onMyActivitiesButtonClicked" prefHeight="40.0" prefWidth="225.0" text="Home" textFill="#eeeeee">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0">
+               <children>
+                  <JFXButton onAction="#chooseAddFriend" prefHeight="40.0" prefWidth="225.0" text="Add Friend" textFill="#eeeeee">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0">
+               <children>
+                  <JFXButton onAction="#chooseLeaderboard" prefHeight="40.0" prefWidth="225.0" text="Leaderboards" textFill="#eeeeee">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="50.0" prefWidth="250.0">
+               <children>
+                  <JFXButton onAction="#chooseMyBadges" prefHeight="40.0" prefWidth="225.0" text="My badges" textFill="#eeeeee">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </HBox>
+            <Pane prefHeight="322.0" prefWidth="250.0">
+               <children>
+                  <JFXButton fx:id="closeButton" layoutX="85.0" layoutY="266.0" onAction="#setCloseButton" prefHeight="27.0" prefWidth="71.0" styleClass="addActivityBtn" text="CLOSE" textFill="#555555" />
+                  <JFXComboBox fx:id="activities" focusColor="#fefefe" layoutX="53.0" layoutY="26.0" onAction="#loadPage" prefHeight="27.0" prefWidth="135.0" promptText="       Add Acitivity" styleClass="addActivityBtn" unFocusColor="#3e5052" />
+               </children>
+            </Pane>
+         </children></VBox>
+      <Pane fx:id="targetPane" layoutX="250.0" prefHeight="700.0" prefWidth="650.0" />
+   </children>
+</Pane>

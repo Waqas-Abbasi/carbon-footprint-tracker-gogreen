@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXSlider?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="600.0" styleClass="parent" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.LoweringTemp">
+   <children>
+      <Pane layoutX="50.0" prefHeight="700.0" prefWidth="550.0">
+         <children>
+            <VBox prefHeight="600.0" prefWidth="550.0" styleClass="parent" stylesheets="@stylesheet.css">
+               <padding>
+                  <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+               </padding>
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="84.0" prefWidth="402.0" style="-fx-background-color: white;">
+                     <children>
+                        <Label minHeight="-Infinity" prefHeight="84.0" prefWidth="416.0" stylesheets="@stylesheet.css" text="Lowering the temperature of your home" textOverrun="CLIP" wrapText="true">
+                           <font>
+                              <Font size="32.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: white;">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <children>
+                        <Label text="Outside temperature (℃): ">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <tooltip>
+                              <Tooltip text="Enter the temperature outside" />
+                           </tooltip>
+                        </Label>
+                        <JFXSlider fx:id="outsideTemp" max="60.0" min="-50.0" value="15.0">
+                           <padding>
+                              <Insets left="5.0" />
+                           </padding>
+                        </JFXSlider>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: white;">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <children>
+                        <Label text="Inside temperature (℃):    ">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <tooltip>
+                              <Tooltip text="Enter the temperature inside your home" />
+                           </tooltip>
+                        </Label>
+                        <JFXSlider fx:id="insideTemp" max="30.0" min="10.0" value="20.0">
+                           <padding>
+                              <Insets left="5.0" />
+                           </padding>
+                        </JFXSlider>
+                     </children>
+                  </HBox>
+                  <JFXButton fx:id="submitMeal" buttonType="RAISED" onAction="#sendTemperatureData" prefHeight="25.0" prefWidth="100.0" styleClass="addMealBtn" stylesheets="@stylesheet.css" text="Submit" />
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+   </children>
+</Pane>

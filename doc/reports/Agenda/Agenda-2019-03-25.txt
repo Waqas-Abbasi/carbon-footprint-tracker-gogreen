@@ -1,0 +1,5 @@
+For this meeting, we will show the TA a first version of out features all woreking together, it is still using username instead of sessions, but Kalin is workung on sessions so that they can be ready for the demo next week. 
+
+We will present ou rdemo and see if the TA has something to say or can help us improve something for the demo on week 8.
+
+To day we actually don t have any questions that we need to ask the Ta, but mybe something will come up during the meeting. 

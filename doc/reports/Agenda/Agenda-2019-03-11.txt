@@ -1,0 +1,10 @@
+During this meeting, we will show the first demo of our app. 
+This demo has the authentication stuff and it is fully working. 
+
+First in the meeting, we will show the demo and after discuss some of the issues we ran into and what we plan on doing for next week:
+Waqas and Nafie will present briefly the results they found while researching how to calculate the score and trace the CO2 emissions for the differnet features.
+Nafie has run onto some problems deploying the dtabase on Heroku, the database accesses are limited so wwe will ask the TA if he ca help us with that.
+Kalin is trying to make connection to the database usiong SpringBoot, if he succeeds we will swith to that instead of using plain JAVA JDBC. 
+Anxian, Stef and Silviu have decieded to switch from Swing to JavaFX and to use the scene builder.
+Silviu has some questions about the animations in JavaFX.
+Gijs will do some research on autogenerating and sending emails and sending desktop notifcations (preferably in java).

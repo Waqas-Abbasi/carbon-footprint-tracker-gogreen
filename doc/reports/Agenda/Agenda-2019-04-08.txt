@@ -1,0 +1,6 @@
+During this last meeting, we will show the TA the final version of our app working with sessions with a test coverage of 100%. 
+The app is actually working, but both the webApp and the Android APP are still on working progress. 
+
+Waqas will show some parts of his webApp and see what the TA can suggest.
+
+Other than this, the TA will give us some feedback on our final report, then we can make it better and fix it before the deadline.

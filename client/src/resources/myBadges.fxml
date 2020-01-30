@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="600.0" styleClass="parent" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MyBadges">
+   <children>
+      <ImageView fx:id="imageBeginner" fitHeight="135.0" fitWidth="158.0" layoutX="46.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true" visible="false" />
+      <ImageView fx:id="imageIntermediate" fitHeight="135.0" fitWidth="158.0" layoutX="51.0" layoutY="283.0" pickOnBounds="true" preserveRatio="true" visible="false" />
+      <ImageView fx:id="imageLeader" fitHeight="135.0" fitWidth="158.0" layoutX="46.0" layoutY="501.0" pickOnBounds="true" preserveRatio="true" visible="false" />
+      <CheckBox fx:id="checkBeginner" disable="true" layoutX="45.0" layoutY="47.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="21.0" textFill="#55dd2f" visible="false">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="checkIntermediate" disable="true" layoutX="45.0" layoutY="257.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="22.0" textFill="#2fb228" visible="false">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="checkLeader" disable="true" layoutX="45.0" layoutY="468.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="14.0" textFill="#01a134" visible="false">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </CheckBox>
+      <Label fx:id="labelBeginner" layoutX="73.0" layoutY="46.0" prefHeight="25.0" prefWidth="115.0" text="Beginner" textFill="#8bda56" visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelIntermediate" layoutX="73.0" layoutY="255.0" prefHeight="27.0" prefWidth="158.0" text="Intermediate" textFill="#1ca11a" visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelLeader" layoutX="73.0" layoutY="468.0" prefHeight="25.0" prefWidth="115.0" text="Leader" textFill="#087d25" visible="false">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

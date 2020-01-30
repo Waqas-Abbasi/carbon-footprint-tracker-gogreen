@@ -1,0 +1,7 @@
+During this meeting, we need to discuss with the TA the following issues and present our progress during the week 2.
+
+Waqas and Silviu found some issues while building the Server/client communication and trying to make them do some simple request/response.
+
+Nafie and Gijs tried to set up the database on the Heroku server and connecting it using JDBC, but unfortunetly using plain java to express queries is a bit hard. So we willa sk the TA about what he thinks about Spring boot.
+
+Silviu, Stef and Axiaan searched how to build the Gui and We will discuss with the TA which one is better JavaFx or Swing.

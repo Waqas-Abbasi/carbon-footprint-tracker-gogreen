@@ -1,0 +1,8 @@
+Demo: 
+The demo was succesful and runned very smoothely, we had all our tests and our branches were all covered.
+Then we discussed some issues that we presented in our agenda for today and the TA said that:
+what needs to be improved on:
+- a small issue with the vegetarian meal
+- we have to make a release today (18-3-2019)
+- checkstyle supress warnings
+- more test coverage.

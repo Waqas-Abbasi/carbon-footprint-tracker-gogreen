@@ -1,0 +1,43 @@
+.parent {
+    -fx-background-color: #fff;
+}
+.sidebar {
+    -fx-background-color: #3E5052;
+}
+.addActivityBtn {
+    -fx-background-color: #8EDDCA;
+}
+
+.addActivityBtn:hover {
+    -fx-background-color:  	#64d0b6;
+}
+
+.addMealBtn {
+    -fx-background-color: #8EDDCA;
+}
+
+.addMealBtn:hover {
+    -fx-background-color: #64d0b6;
+}
+.checkBox:hover {
+    -fx-background-color: #eee;
+}
+
+/* Removes the horizontal scrollbar inside of the table */
+.table-view *.scroll-bar:horizontal *.increment-button,
+.table-view *.scroll-bar:horizontal *.decrement-button {
+    -fx-background-color: null;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+.table-view *.scroll-bar:horizontal *.increment-arrow,
+.table-view *.scroll-bar:horizontal *.decrement-arrow {
+    -fx-background-color: null;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+    -fx-shape: null;
+}
+

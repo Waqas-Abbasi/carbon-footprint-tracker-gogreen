@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="600.0" styleClass="parent" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.AddNewMealController">
+   <children>
+      <Pane layoutX="50.0" prefHeight="700.0" prefWidth="550.0">
+         <children>
+            <VBox layoutY="39.0" prefHeight="600.0" prefWidth="550.0" styleClass="parent" stylesheets="@stylesheet.css">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: white;">
+                     <children>
+                        <Label prefWidth="450.0" stylesheets="@stylesheet.css" text="New vegetarian meal">
+                           <font>
+                              <Font size="32.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </HBox>
+                  <HBox id="ingredientsHBox" fx:id="foodIngredientsPane" alignment="CENTER_LEFT" prefHeight="165.0" prefWidth="450.0" styleClass="parent" stylesheets="@stylesheet.css">
+                     <children>
+                        <VBox fx:id="ingredientsList1" alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0" spacing="5.0">
+                           <children>
+                              <JFXCheckBox fx:id="lamb" checkedColor="#8eddca" onAction="#ingredientChecked" styleClass="checkBox" stylesheets="@stylesheet.css" text="Lamb" />
+                              <JFXCheckBox fx:id="beef" checkedColor="#8eddca" onAction="#ingredientChecked" styleClass="checkBox" stylesheets="@stylesheet.css" text="Beef" />
+                              <JFXCheckBox fx:id="chicken" checkedColor="#8eddca" onAction="#ingredientChecked" styleClass="checkBox" stylesheets="@stylesheet.css" text="Chicken" />
+                              <JFXCheckBox fx:id="pork" checkedColor="#8eddca" onAction="#ingredientChecked" styleClass="checkBox" stylesheets="@stylesheet.css" text="Pork" />
+                              <JFXCheckBox fx:id="tofu" checkedColor="#8eddca" onAction="#ingredientChecked" styleClass="checkBox" stylesheets="@stylesheet.css" text="Tofu" />
+                              <JFXCheckBox fx:id="vegetables" checkedColor="#8eddca" onAction="#ingredientChecked" styleClass="checkBox" stylesheets="@stylesheet.css" text="Vegetables" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="ingredientsList2" alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0" spacing="5.0">
+                           <children>
+                              <JFXCheckBox fx:id="turkey" checkedColor="#8eddca" onAction="#ingredientChecked" styleClass="checkBox" stylesheets="@stylesheet.css" text="Turkey" />
+                              <JFXCheckBox fx:id="tuna" checkedColor="#8eddca" onAction="#ingredientChecked" styleClass="checkBox" stylesheets="@stylesheet.css" text="Tuna" />
+                              <JFXCheckBox fx:id="cheese" checkedColor="#8eddca" onAction="#ingredientChecked" styleClass="checkBox" stylesheets="@stylesheet.css" text="Cheese" />
+                              <JFXCheckBox fx:id="eggs" checkedColor="#8eddca" onAction="#ingredientChecked" styleClass="checkBox" stylesheets="@stylesheet.css" text="Eggs" />
+                              <JFXCheckBox fx:id="potatoes" checkedColor="#8eddca" onAction="#ingredientChecked" styleClass="checkBox" stylesheets="@stylesheet.css" text="Potatoes" />
+                              <JFXCheckBox fx:id="beans" checkedColor="#8eddca" onAction="#ingredientChecked" styleClass="checkBox" stylesheets="@stylesheet.css" text="Beans" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="ingredientsList3" alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0" spacing="5.0">
+                           <children>
+                              <JFXCheckBox fx:id="rice" checkedColor="#8eddca" onAction="#ingredientChecked" styleClass="checkBox" stylesheets="@stylesheet.css" text="Rice" />
+                              <JFXCheckBox fx:id="nuts" checkedColor="#8eddca" onAction="#ingredientChecked" styleClass="checkBox" stylesheets="@stylesheet.css" text="Nuts" />
+                              <JFXCheckBox fx:id="fruit" checkedColor="#8eddca" onAction="#ingredientChecked" styleClass="checkBox" stylesheets="@stylesheet.css" text="Fruit" />
+                              <JFXCheckBox fx:id="milk" checkedColor="#8eddca" onAction="#ingredientChecked" styleClass="checkBox" stylesheets="@stylesheet.css" text="Milk" />
+                              <JFXCheckBox fx:id="lentils" checkedColor="#8eddca" onAction="#ingredientChecked" styleClass="checkBox" stylesheets="@stylesheet.css" text="Lentils" />
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="5.0">
+                           <children>
+                              <JFXButton fx:id="submitMeal" buttonType="RAISED" onAction="#submitNewMeal" prefHeight="25.0" prefWidth="100.0" styleClass="addMealBtn" stylesheets="@stylesheet.css" text="Submit Meal" />
+                              <Label fx:id="submissionStatus" />
+                              <Label fx:id="statusNewMeal" prefHeight="18.0" prefWidth="88.0" />
+                           </children>
+                           <HBox.margin>
+                              <Insets left="20.0" />
+                           </HBox.margin>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: white;">
+                     <children>
+                        <Label prefHeight="26.0" prefWidth="192.0" stylesheets="@stylesheet.css" text="Selected Ingredients:">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Label>
+                        <Label id="selectedIngredients" fx:id="selectedIngredients" prefHeight="47.0" prefWidth="301.0" stylesheets="@stylesheet.css">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: white;">
+                     <children>
+                        <Label prefWidth="450.0" stylesheets="@stylesheet.css" text="Meal from existing ones">
+                           <font>
+                              <Font size="32.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </HBox>
+                  <HBox id="ingredientsHBox" alignment="CENTER_LEFT" prefHeight="120.0" prefWidth="450.0" styleClass="parent" stylesheets="@stylesheet.css">
+                     <children>
+                        <VBox fx:id="mealList1" alignment="CENTER_LEFT" prefHeight="120.0" prefWidth="313.0" spacing="5.0" />
+                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="5.0">
+                           <children>
+                              <JFXButton id="submitExistingMeal" fx:id="submitNewMeal" buttonType="RAISED" onAction="#submitNewMealFromExisting" prefHeight="25.0" prefWidth="100.0" styleClass="addMealBtn" stylesheets="@stylesheet.css" text="Submit Meal" />
+                              <Label fx:id="statusExistingMeal" prefHeight="18.0" prefWidth="88.0" />
+                           </children>
+                           <HBox.margin>
+                              <Insets left="20.0" />
+                           </HBox.margin>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: white;">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <children>
+                        <Label prefHeight="26.0" prefWidth="133.0" stylesheets="@stylesheet.css" text="Selected Meals:">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Label>
+                        <Label id="selectedIngredients" fx:id="selectedMeals" prefHeight="47.0" prefWidth="313.0" stylesheets="@stylesheet.css">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+               </padding>
+            </VBox>
+         </children>
+      </Pane>
+   </children>
+</Pane>

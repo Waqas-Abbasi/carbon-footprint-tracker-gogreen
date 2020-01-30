@@ -1,0 +1,17 @@
+In week 7th’s meeting we started out with a brief explanation of what each of the team members has accomplished during the previous week and what are our expectations and concerns about the coming demo and report draft.
+
+Chairman was Anxian and Kalin was secretary.
+
+Our TA encouraged us to merge everything in master and get rid of big part of our branches, because we have around 20.
+
+Some guides around the report. The report should consist of:
+1.	How the project went?
+2.	Why did we used… techniques; problems with tools and frameworks?
+3.	How I am going to do my next project, what am I going to do like I did and what I will change?
+4.	Individual reflection on the plan.
+5.	Value sensitive design
+
+
+Our TA gave us some ideas about improving our GUI.
+
+We also need to write better documentation and also stick to the same style of comment writing.

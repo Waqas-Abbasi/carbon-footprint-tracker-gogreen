@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.validation.RequiredFieldValidator?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="950.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.LoginPage">
+    <children>
+        <Pane layoutX="734.0" opacity="0.9" prefHeight="400.0" prefWidth="200.0" style="-fx-background-color: aquamarine;">
+            <children>
+                <JFXTextField fx:id="emailRegister" layoutX="33.0" layoutY="135.0" promptText="username" unFocusColor="WHITE" />
+                <JFXPasswordField fx:id="passwordRegister" layoutX="33.0" layoutY="180.0" promptText="enter password" unFocusColor="WHITE" />
+                <JFXPasswordField fx:id="passwordRegisterRepeat" layoutX="33.0" layoutY="224.0" promptText="repeat password" unFocusColor="WHITE" />
+                <JFXButton fx:id="register" layoutX="33.0" layoutY="308.0" onAction="#onRegisterButtonClicked" prefHeight="25.0" prefWidth="135.0" text="Register" textFill="#ffffff">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </JFXButton>
+            <JFXTextField fx:id="country" layoutX="33.0" layoutY="263.0" promptText="country" unFocusColor="WHITE" />
+            <Label fx:id="statusRegister" layoutX="33.0" layoutY="50.0" prefHeight="17.0" prefWidth="200.0" textFill="#7e7e7e" wrapText="true" />
+            <JFXTextField fx:id="name" layoutX="33.0" layoutY="92.0" promptText="name" unFocusColor="WHITE" />
+            </children>
+        </Pane>
+        <Label layoutX="30.0" layoutY="152.0" prefHeight="77.0" prefWidth="417.0" text="Welcome to GoGreen" textAlignment="CENTER" textFill="#43ffdf" wrapText="true">
+            <font>
+                <Font size="40.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="72.0" layoutY="212.0" prefHeight="54.0" prefWidth="334.0" text="make the world a better place by being responsible about your carbon footprint" textAlignment="CENTER" textFill="#43ffdf" wrapText="true" />
+        <Pane layoutX="482.0" opacity="0.7" prefHeight="400.0" prefWidth="200.0" style="-fx-background-color: greenyellow;">
+            <children>
+                <JFXPasswordField fx:id="password" layoutX="33.0" layoutY="200.0" promptText="password" unFocusColor="WHITE" />
+                <JFXTextField fx:id="email" layoutX="33.0" layoutY="167.0" promptText="username/email" unFocusColor="WHITE" />
+                <JFXButton fx:id="login" layoutX="33.0" layoutY="248.0" onAction="#onLoginButtonClicked" prefHeight="17.0" prefWidth="135.0" text="Login" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </JFXButton>
+            <Label fx:id="statusLogin" layoutX="33.0" layoutY="106.0" prefHeight="17.0" prefWidth="135.0" textFill="#7e7e7e" wrapText="true" />
+            <RequiredFieldValidator layoutX="18.0" layoutY="184.0" />
+            <RequiredFieldValidator layoutX="20.0" layoutY="211.0" />
+            </children>
+        </Pane>
+    </children>
+</Pane>

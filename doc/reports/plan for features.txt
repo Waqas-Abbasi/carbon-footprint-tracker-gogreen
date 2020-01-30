@@ -1,0 +1,26 @@
+# Features:
+
+## Eating vegetariean:
+
+In order to calculate the score of the user for this activity, we will have a list of ingredients with a scpecific score assigned to them. Once the user selects an ingredient, we will give the score with a + or - depending if it is a vegetarian or non-vegetarian meal.
+
+## Buying local produce:
+
+Once the user decides to add this green activity, we will ask him for the region wher ehe is from then we will ask him from where he thinks that the product is from. On our database, we will have  a 5 by 5 table with different scores.
+
+The attributes on the databse are : region and product_region.
+
+## Using bike instead of car:
+
+We will decide how many points a user will get for 1g/km of carbon avoided. After some research we found this formula : if you use a bike instead of a car we avoid 42g/km.
+
+The attributes on the databse are : distance.
+
+## Lowering teparutre:
+
+This feature will have two attributes: outside and inside temperature. We will have a formula that gives scores to users depending on these two temperatures.
+
+## Solar panel:
+
+The user will get points for installing and then some passive points each period of time. To be determined after.
+

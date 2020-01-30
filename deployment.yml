@@ -1,0 +1,20 @@
+# Deployment info about the docker container that is created an stored in GitLab's registry
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: OOP-Project
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: OOP-Project
+    spec:
+      containers:
+        - name: OOP-Project
+          image: gitlab.ewi.tudelft.nl:4242/cse1105/2018-2019/oopp-group-86/template
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8443
+      imagePullSecrets:
+        - name: gitlab.ewi.tudelft.nl:4242
